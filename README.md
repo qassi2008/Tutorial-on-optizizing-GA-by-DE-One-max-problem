@@ -14,14 +14,13 @@ NumPy
 Matplotlib
 You can install them using pip:
 
-Copy code
 pip install deap numpy matplotlib
+
 Usage
 To run the script, simply execute the following command in your terminal or command prompt:
 
-Copy code
-python ga_de_onemax.py
-The script will first run GA with an initial population and then optimize the GA parameters using DE. After that, it will run GA again with the optimized parameters and display the best individual found. Finally, the script will plot the GA fitness over generations.
+python one_max_problem.py
+The script will first run GA with an initial population and then optimize the GA parameters by DE. After that, it will run GA again with the optimized parameters and display the best individual found. Finally, the script will plot the GA fitness over generations.
 
 Output
 The script will output:
